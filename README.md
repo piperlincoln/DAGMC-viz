@@ -57,4 +57,4 @@ python TagExpansion.py [meshfile]
 ```
 ----------------------------------------
 
-NOTE: This is based on [previous work](https://github.com/piperlincoln/DAGMC-viz/tree/lane_progress) done by Lane Schultz.
+NOTE: This is based on [previous work](https://github.com/piperlincoln/DAGMC-viz/tree/lane-progress) done by Lane Schultz.
