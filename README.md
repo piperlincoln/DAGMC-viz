@@ -6,7 +6,7 @@ The purpose of this toolkit is to assist with the visualization of DAGMC geometr
 The Direct Accelerated Geometry Monte Carlo visualization toolkit requires Python 2.7, VisIt 2.3.13 or above, and MOAB 5.1.0. The inclusion of VisIt and MOAB in the PYTHONPATH and the VisIt and MOAB executables in the PATH are required.The toolkit can be installed on a linux platform with the following command.
 
 ```
-pip install -i https://test.pypi.org/simple/dagmc-viz
+pip install svalinn-tools==0.3
 ```
 
 If the user is in a Python environment, each of the three submodules can be accessed in the following way.
@@ -17,7 +17,7 @@ import svalinn_tools.{SUBMODULE}
 
 ## Description
 
-### Data Loading 
+### Data Loading
 This module can be used to create a default interactive output in VisIt from an h5m geometry file and an h5m or vtk data file. The following four interactive plot windows are displayed in a 2x2 grid.
 
       1. A cube with a clip through the first octant.
@@ -64,7 +64,7 @@ graveyard_removal [h5mfile] -o [outputfile] -p
 
 ----------------------------------------
 
-### Tag Expansion 
+### Tag Expansion
 This module can be used to expand vector tags on a mesh and generate a data file for each value in the vector tag. VisIt will recognize the collection of these data files as a database, and permit stepping through them in an animation.
 
 ```
